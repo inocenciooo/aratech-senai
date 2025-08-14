@@ -1,0 +1,53 @@
+#contato {
+    background: linear-gradient(90deg, #305375, #031629);
+    color: white;
+    padding: 50px;
+    height: 100vh;
+}
+
+img {
+    height: 100%;
+}
+
+#contato h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+#contato .contato-main {
+    display: flex;
+    margin: 30px auto;
+}
+
+.contato-main .image {
+    width: 500px;
+}
+
+.contato-main .formulario {
+    padding: 20px;
+    font-size: 20px;
+    background-color: #064c92;
+    width: 800px;
+}
+
+.contato-main .formulario div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.contato-main .formulario div input {
+    color: black;
+    padding: 5px;
+    font-size: 16px;
+    margin: 10px 0;
+    display: block;
+}
+
+.formulario textarea {
+    display: block;
+    color: black;
+    height: 200px;
+    margin: 10px 0;
+    padding: 5px;
+}

@@ -1,0 +1,39 @@
+@media(max-width: 1000px) {
+    #menu {
+        position: absolute;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #133E68;
+        width: 200px;
+        height: 400px;
+        padding-block: 20px;
+        left: 100px;
+        top: 60px;
+        transition: 0.3s ease-in-out;
+    }
+
+    .nav-list .menu-button div {
+        display: block;
+    }
+
+    #menu.active {
+        left: -120px;
+        top: 60px;
+    }
+
+    .menu-button.active div {
+        background-color: inherit;
+        transform: rotate(45deg);
+    }
+
+    .nav-list .menu-button.active div::before {
+        top: 0;
+        transform: rotate(90deg);
+    }
+
+    .nav-list .menu-button.active div::after {
+        top: 0;
+        transform: rotate(0deg);
+    }
+}

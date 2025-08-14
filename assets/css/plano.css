@@ -1,0 +1,98 @@
+#planos {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #004067, #006337);
+    padding: 20px;
+}
+
+#planos div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+#planos div h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.tabela table {
+    width: 70vw;
+    height: 50vh;
+    color: black;
+}
+
+.tabela table,
+.tabela th,
+.tabela caption,
+.tabela tr,
+.tabela td {
+    border-collapse: collapse;
+    text-align: center;
+    border: 2px solid black;
+    background-color: rgb(236, 251, 255);
+}
+
+.tabela th,
+.tabela tr,
+.tabela td {
+    padding: 10px;
+}
+
+.tabela img {
+    width: 40px;
+    transition: 0.2s ease-in-out;
+}
+
+.tabela tbody td:hover img {
+    width: 40px;
+    transform: translate(4px, -4px);
+}
+
+
+
+.tabela caption {
+    background-color: #133E68;
+    color: white;
+    border-bottom: none;
+    padding: 5px;
+}
+
+
+.tabela tbody td:nth-child(1),
+.tabela thead th {
+    background-color: #0b619e;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.tabela thead th:first-child,
+.tabela tbody tr:last-child td:first-child {
+    background-color: inherit;
+    color: black;
+}
+
+.tabela a {
+    display: block;
+    background-color: #133E68;
+    padding: 10px 20px;
+    color: white;
+    border: 2px solid #133E68;
+    border-radius: 8px;
+    border: 2px solid black;
+    box-shadow: -4px 4px 0px 2px black;
+    transition: 0.3s ease-in-out;
+}
+
+.tabela a:hover {
+    transform: translate(5px, -5px);
+}

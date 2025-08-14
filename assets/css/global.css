@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: aliceblue;
+}
+
+#cabecalho {
+    background-color: #133E68;
+    min-height: 10vh;
+}
+
+#cabecalho nav {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#menu a {
+    display: block;
+    color: white;
+    width: 100px;
+    text-align: center;
+    padding: 10px 0;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: 0.2s ease-in-out;
+}
+
+#menu a:hover {
+    color: black;
+    background-color: white;
+}
+
+#principal {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-list {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-list .menu-button {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.nav-list .menu-button div {
+    height: 3px;
+    width: 25px;
+    background-color: white;
+    position: relative;
+    display: none;
+    transition: 0.2s ease-in;
+}
+
+.nav-list .menu-button div::before,
+.nav-list .menu-button div::after {
+    content: "";
+    height: 3px;
+    width: 25px;
+    background-color: white;
+    position: absolute;
+}
+
+.nav-list .menu-button div::before {
+    top: -8px;
+    transition: 0.2s ease-in;
+}
+
+.nav-list .menu-button div::after {
+    top: 8px;
+    transition: 0.2s ease-in;
+}
+
+#rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    height: 10vh;
+    background-color: #133E68;
+    color: white;
+}
