@@ -22,6 +22,20 @@
         top: 60px;
     }
 
+    #cursos .curso {
+        width: 350px;
+    }
+
+    #contato .contato-main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #contato img {
+        width: 100%;
+        border-radius: 8px;
+    }
+
     .menu-button.active div {
         background-color: inherit;
         transform: rotate(45deg);

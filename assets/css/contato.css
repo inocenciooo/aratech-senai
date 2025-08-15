@@ -1,12 +1,13 @@
 #contato {
-    background: linear-gradient(90deg, #305375, #031629);
+    background: linear-gradient(90deg, #06121f, #052341);
     color: white;
     padding: 50px;
-    height: 100vh;
+    min-height: 100vh;
 }
 
-img {
+#contato img {
     height: 100%;
+    border-radius: 8px;
 }
 
 #contato h2 {
@@ -15,19 +16,20 @@ img {
 }
 
 #contato .contato-main {
-    display: flex;
     margin: 30px auto;
+    max-width: 1500px;
+    display: grid;
+    grid-template-columns: 700px 1fr;
+    grid-template-rows: 600px;
+    gap: 6px;
 }
 
-.contato-main .image {
-    width: 500px;
-}
 
 .contato-main .formulario {
     padding: 20px;
     font-size: 20px;
-    background-color: #064c92;
-    width: 800px;
+    background-color: #254A75;
+    border-radius: 8px;
 }
 
 .contato-main .formulario div {
@@ -42,12 +44,35 @@ img {
     font-size: 16px;
     margin: 10px 0;
     display: block;
+    border-radius: 4px;
 }
 
 .formulario textarea {
-    display: block;
     color: black;
+    font-size: 16px;
     height: 200px;
     margin: 10px 0;
     padding: 5px;
+    border-radius: 4px;
+    resize: none;
+}
+
+.contato-main .image {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#form-button {
+    cursor: pointer;
+    width: 80px;
+    padding: 10px;
+    color: white;
+    background-color: #008B8B;
+    border: 2px solid #008B8B;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+}
+
+#form-button:hover {
+    background-color: inherit;
 }
