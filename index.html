@@ -12,10 +12,11 @@
     <link rel="stylesheet" href="./assets/css/home.css">
     <link rel="stylesheet" href="./assets/css/sobre.css">
     <link rel="stylesheet" href="./assets/css/curso.css">
-    <link rel="stylesheet" href="./assets/css/plano.css">
+    <link rel="stylesheet" href="./assets/css/planos.css">
     <link rel="stylesheet" href="./assets/css/galeria.css">
-    <link rel="stylesheet" href="./assets/css/rodape.css">
     <link rel="stylesheet" href="./assets/css/contato.css">
+    <link rel="stylesheet" href="./assets/css/rodape.css">
+
 
     <link rel="stylesheet" href="./assets/css/responsive.css">
 
@@ -47,18 +48,20 @@
         </header>
         <main id="principal">
             <section id="home">
-                <h1>Sua melhor opção</h1>
-                <p class="home-sobre">
-                    A Aratech Informática fornece os melhores serviços de cursos do mercado, oferecendo os melhores
-                    professores e as melhores aulas atualmente disponíveis.
-                </p>
-                <div class="seta">
-                    <a href="#sobre"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                            class="size-6">
-                            <path fill-rule="evenodd"
-                                d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm-.53 14.03a.75.75 0 0 0 1.06 0l3-3a.75.75 0 1 0-1.06-1.06l-1.72 1.72V8.25a.75.75 0 0 0-1.5 0v5.69l-1.72-1.72a.75.75 0 0 0-1.06 1.06l3 3Z"
-                                clip-rule="evenodd" />
-                        </svg></a>
+                <div class="home-card">
+                    <h1>Sua melhor opção</h1>
+                    <p class="home-sobre">
+                        A Aratech Informática fornece os melhores serviços de cursos do mercado, oferecendo os melhores
+                        professores e as melhores aulas atualmente disponíveis.
+                    </p>
+                    <div class="seta">
+                        <a href="#sobre"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="size-6">
+                                <path fill-rule="evenodd"
+                                    d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm-.53 14.03a.75.75 0 0 0 1.06 0l3-3a.75.75 0 1 0-1.06-1.06l-1.72 1.72V8.25a.75.75 0 0 0-1.5 0v5.69l-1.72-1.72a.75.75 0 0 0-1.06 1.06l3 3Z"
+                                    clip-rule="evenodd" />
+                            </svg></a>
+                    </div>
                 </div>
             </section>
             <secttion id="sobre">
@@ -253,6 +256,7 @@
                         <img src="./assets/img/galeria/trabalho-em-grupo-online.jpg">
                         <p>Trabalho desenvolvido em grupo online</p>
                     </div>
+                </div>
             </section>
             <section id="contato">
                 <h2>Contato</h2>
@@ -288,15 +292,37 @@
 
     <footer id="rodape">
         <div class="noticias">
-            noticias
+            <h5 class="titulo-rodape">Últimas Notícias do Mundo Tec</h5>
+            <ul>
+                <li><a href="https://olhardigital.com.br/2025/08/06/carros-e-tecnologia/uber-busca-investidores-para-impulsionar-os-robotaxis/"
+                        target="_blank">Uber busca investidores para impulsionar os robotáxis.</a></li>
+                <li><a href="https://veja.abril.com.br/coluna/planeta-ia/as-40-profissoes-mais-e-menos-afetadas-por-ias-segundo-a-microsoft/"
+                        target="_blank">As 40 profissões mais (e menos) afetadas por IAs, segundo a Microsoft.</a></li>
+                <li><a href="https://veja.abril.com.br/tecnologia/golpe-da-maquininha-se-espalha-pelo-pais-como-se-prevenir/"
+                        target="_blank">Golpe da maquininha se espalha pelo país: como se prevenir.</a></li>
+                <li><a href="https://www.techtudo.com.br/noticias/2025/08/golpe-usa-fotos-das-redes-sociais-para-burlar-reconhecimento-facial-edapps.ghtml"
+                        target="_blank">Golpe usa fotos das redes sociais para burlar reconhecimento facial.</a></li>
+            </ul>
         </div>
         <div class="informacoes">
-            informacoes
+            <div class="redes-sociais">
+                <h5 class="titulo-rodape">Redes sociais</h5>
+                <ul>
+                    <li><a href=""><img src="./assets/img/redes-sociais/facebook.png"></a><p>Facebook</p></li>
+                    <li><a href=""><img src="./assets/img/redes-sociais/instagram.png"></a><p>Facebook</p></li>
+                    <li><a href=""><img src="./assets/img/redes-sociais/whatsapp.png"></a><p>Facebook</p></li>
+                    <li><a href=""><img src="./assets/img/redes-sociais/x.png"></a><p>Facebook</p></li>
+                </ul>
+            </div>
         </div>
-        <div class="desenvolvedor">
-            <p>© 2025 Desenvolvido por <span>Vinícius Inocêncio</span>. Alguns direitos reservados.</p>
+        <div class="endereco">
+            <h5 class="titulo-rodape">Endereço</h5>
+            <p>Endereço: R. Eng. Camilo Collier, 520 - Primavera.</p>
+            <p>Arapiraca - AL, 57304-240</p>
+            <p>E-mail: aratech.informatiac@gmail.com</p>
+            <p>Número: (82) 3522-8300</p>
+            <p>Termos de Uso e Política de Privacidade</p>
         </div>
-
     </footer>
 
     <script src="./assets/js/script.js"></script>

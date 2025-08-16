@@ -2,7 +2,7 @@
     background-color: #0f5397;
     color: white;
     padding: 50px 100px;
-    min-height: 60vh;
+    min-height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -49,8 +49,8 @@
     width: 50px;
 }
 
-#cursos .curso ul {
-    list-style: auto;
+#cursos .curso h3{
+    text-align: left;
 }
 
 #cursos .curso:nth-child(1) h3 {

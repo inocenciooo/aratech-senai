@@ -6,27 +6,30 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
-    min-height: 88vh;
+    min-height: 90vh;
 }
-
+#home .home-card{
+    max-width: 700px;
+}
 #home h1 {
     font-size: 50px;
-    padding-left: 80px;
     color: white;
+    text-align: center;
+    line-height: 50px;
 }
 
+
 #home .home-sobre {
-    max-width: 680px;
     font-size: 20px;
     margin-block: 20px;
     padding: 40px 20px 40px 50px;
     background-color: #133e6881;
     color: white;
     font-weight: bold;
+    text-align: justify;
 }
 
 #home .seta {
-    max-width: 700px;
     text-align: end;
 }
 

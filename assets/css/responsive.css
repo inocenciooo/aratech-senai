@@ -18,7 +18,7 @@
     }
 
     #menu.active {
-        left: -120px;
+        left: -100px;
         top: 60px;
     }
 
@@ -49,5 +49,27 @@
     .nav-list .menu-button.active div::after {
         top: 0;
         transform: rotate(0deg);
+    }
+}
+
+@media(max-width: 600px) {
+
+    .tabela th,
+    .tabela tr,
+    .tabela td {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .tabela img {
+        max-width: 25px;
+        transition: 0.2s ease-in-out;
+    }
+
+    .tabela a {
+        padding: 5px;
+        border-radius: 6px;
+        border: 2px solid black;
+        box-shadow: -2px 2px 0px 1px black;
     }
 }

@@ -1,11 +1,41 @@
 #rodape {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 20px 0;
+    justify-content: space-between;
+    align-items: top;
+    flex-direction: row;
+    padding: 20px;
     min-height: 10vh;
     background-color: #133E68;
     color: white;
-    gap: 50px;
+}
+
+
+.noticias {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.titulo-rodape {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+.noticias ul li {
+    text-decoration: underline;
+    transition: 0.2s ease-in-out;
+    margin-block: 10px;
+}
+
+.noticias ul li:hover {
+    color: rgb(245, 223, 193);
+}
+
+.endereco p {
+    margin-block: 10px;
+}
+
+.redes-sociais img {
+    width: 35px;
 }
