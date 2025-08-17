@@ -1,78 +1,91 @@
 #contato {
-    background: linear-gradient(90deg, #06121f, #052341);
-    color: white;
-    padding: 50px;
-    min-height: 100vh;
+  background: linear-gradient(90deg, #06121f, #052341);
+  color: white;
+  padding: 50px;
+  min-height: 100vh;
 }
 
 #contato img {
-    height: 100%;
-    border-radius: 8px;
+  height: 100%;
+  border-radius: 8px;
 }
 
 #contato h2 {
-    font-size: 50px;
-    text-align: center;
+  font-size: 50px;
+  text-align: center;
 }
 
 #contato .contato-main {
-    margin: 30px auto;
-    max-width: 1500px;
-    display: grid;
-    grid-template-columns: 700px 1fr;
-    grid-template-rows: 600px;
-    gap: 6px;
+  margin: 30px auto;
+  max-width: 1500px;
+  display: grid;
+  grid-template-columns: 700px 1fr;
+  grid-template-rows: 710px;
+  gap: 6px;
 }
 
-
 .contato-main .formulario {
-    padding: 20px;
-    font-size: 20px;
-    background-color: #254A75;
-    border-radius: 8px;
+  padding: 20px;
+  font-size: 20px;
+  background-color: #254a75;
+  border-radius: 8px;
 }
 
 .contato-main .formulario div {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .contato-main .formulario div input {
-    color: black;
-    padding: 5px;
-    font-size: 16px;
-    margin: 10px 0;
-    display: block;
-    border-radius: 4px;
+  color: black;
+  padding: 5px;
+  font-size: 16px;
+  margin: 10px 0;
+  display: block;
+  border-radius: 4px;
+  border: 2px solid white;
 }
 
 .formulario textarea {
-    color: black;
-    font-size: 16px;
-    height: 200px;
-    margin: 10px 0;
-    padding: 5px;
-    border-radius: 4px;
-    resize: none;
+  color: black;
+  font-size: 16px;
+  height: 200px;
+  margin: 10px 0;
+  padding: 5px;
+  border-radius: 4px;
+  resize: none;
 }
 
 .contato-main .image {
-    border-radius: 8px;
-    overflow: hidden;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 #form-button {
-    cursor: pointer;
-    width: 80px;
-    padding: 10px;
-    color: white;
-    background-color: #008B8B;
-    border: 2px solid #008B8B;
-    font-weight: 600;
-    transition: 0.3s ease-in-out;
+  cursor: pointer;
+  width: 80px;
+  padding: 10px;
+  color: white;
+  background-color: #008b8b;
+  border: 2px solid #008b8b;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
 }
 
 #form-button:hover {
-    background-color: inherit;
+  background-color: inherit;
+}
+
+.contato-main .formulario p {
+  visibility: hidden;
+}
+
+.contato-main .formulario .mensagem-erro p{
+  color: #fa0f0f;
+  visibility: visible;
+}
+
+.contato-main .formulario .mensagem-erro input{
+    border: 2px solid #fa0f0f;
 }
