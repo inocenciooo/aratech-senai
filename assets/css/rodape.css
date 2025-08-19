@@ -7,6 +7,7 @@
     min-height: 10vh;
     background-color: #133E68;
     color: white;
+    gap: 10px;
 }
 
 
@@ -36,6 +37,38 @@
     margin-block: 10px;
 }
 
+.redes-sociais {
+    max-width: 450px;
+}
+
 .redes-sociais img {
     width: 35px;
+}
+
+.redes-sociais ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.redes-sociais a {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 8px;
+    color: white;
+    transition: 0.3s ease;
+    border: 2px solid #133E68;
+    border-radius: 4px;
+}
+
+.redes-sociais li {
+    display: inline;
+}
+
+.redes-sociais a:hover {
+    background-color: #008b8b;
+    border: 2px solid #008b8b;
+    color: black;
 }

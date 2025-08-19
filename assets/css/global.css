@@ -23,6 +23,8 @@ body {
 #cabecalho {
   background-color: #133e68;
   min-height: 10vh;
+  position: fixed;
+  z-index: 1;
 }
 
 #cabecalho nav {

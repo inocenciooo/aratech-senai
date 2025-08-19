@@ -4,13 +4,13 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        background-color: #133E68;
+        background-color: #0e3257;
         width: 200px;
         height: 400px;
         padding-block: 20px;
-        left: 100px;
-        top: 60px;
         transition: 0.3s ease-in-out;
+        transform: translate(100%, 15%);
+        border-radius: 4px;
     }
 
     .nav-list .menu-button div {
@@ -18,8 +18,7 @@
     }
 
     #menu.active {
-        left: -100px;
-        top: 60px;
+        transform: translate(-60%, 16%);
     }
 
     #cursos .curso {
