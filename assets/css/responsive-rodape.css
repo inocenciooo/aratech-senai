@@ -6,9 +6,8 @@
         gap: 30px;
     }
 
-    .redes-sociais ul {
-        flex-direction: column;
-        align-items: center;
-        gap: 0px;
+    #rodape>div {
+        border-right: none;
+        border-bottom: 2px solid white;
     }
 }

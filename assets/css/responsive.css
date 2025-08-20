@@ -25,6 +25,24 @@
         width: 350px;
     }
 
+    #home {
+        padding: 160px 20px 0px 20px;
+    }
+
+    .card {
+        margin: 150px 20px;
+        color: white;
+        padding: 20px;
+    }
+
+    #planos {
+        padding: 150px 20px;
+    }
+
+    #contato {
+        padding: 20px;
+    }
+
     #contato .contato-main {
         display: flex;
         flex-direction: column;
@@ -49,6 +67,7 @@
         top: 0;
         transform: rotate(0deg);
     }
+
 }
 
 @media(max-width: 600px) {
