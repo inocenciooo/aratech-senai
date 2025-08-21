@@ -1,93 +1,95 @@
-@media(max-width: 1000px) {
-    #menu {
-        position: absolute;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        background-color: #000000;
-        width: 200px;
-        height: 400px;
-        padding-block: 20px;
-        transition: 0.3s ease-in-out;
-        transform: translate(100%, 15%);
-        border-radius: 4px;
-    }
+@media (max-width: 1000px) {
+  #menu {
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    width: 200px;
+    height: 400px;
+    padding-block: 20px;
+    transition: 0.3s ease-in-out;
+    transform: translate(100%, 15%);
+    border-radius: 4px;
+  }
 
-    .nav-list .menu-button div {
-        display: block;
-    }
+  .nav-list .menu-button div {
+    display: block;
+  }
 
-    #menu.active {
-        transform: translate(-60%, 15%);
-    }
+  #menu.active {
+    transform: translate(-50%, 6vh);
+  }
 
-    #cursos .curso {
-        width: 350px;
-    }
+  #cursos .curso {
+    width: 350px;
+  }
 
-    #home {
-        padding: 160px 20px 0px 20px;
-    }
+  #home {
+    padding: 160px 20px 0px 20px;
+  }
 
-    .card {
-        margin: 150px 20px;
-        color: white;
-        padding: 20px;
-    }
+  .card {
+    margin: 150px 20px;
+    color: white;
+    padding: 20px;
+  }
 
-    #planos {
-        padding: 150px 20px;
-    }
+  #planos {
+    padding: 150px 20px;
+  }
 
-    #contato {
-        padding: 20px;
-    }
+  #contato {
+    padding: 20px;
+  }
 
-    #contato .contato-main {
-        display: flex;
-        flex-direction: column;
-    }
+  #contato .contato-main {
+    display: flex;
+    flex-direction: column;
+  }
 
-    #contato img {
-        width: 100%;
-        border-radius: 8px;
-    }
+  #contato img {
+    width: 100%;
+    border-radius: 8px;
+  }
 
-    .menu-button.active div {
-        background-color: inherit;
-        transform: rotate(45deg);
-    }
+  .menu-button.active div {
+    background-color: inherit;
+    transform: rotate(45deg);
+  }
 
-    .nav-list .menu-button.active div::before {
-        top: 0;
-        transform: rotate(90deg);
-    }
+  .nav-list .menu-button.active div::before {
+    top: 0;
+    transform: rotate(90deg);
+  }
 
-    .nav-list .menu-button.active div::after {
-        top: 0;
-        transform: rotate(0deg);
-    }
-
+  .nav-list .menu-button.active div::after {
+    top: 0;
+    transform: rotate(0deg);
+  }
 }
 
-@media(max-width: 600px) {
+@media (max-width: 600px) {
+  .tabela th,
+  .tabela tr,
+  .tabela td {
+    font-size: 12px;
+    padding: 8px;
+  }
 
-    .tabela th,
-    .tabela tr,
-    .tabela td {
-        font-size: 12px;
-        padding: 8px;
-    }
+  .tabela img {
+    max-width: 25px;
+    transition: 0.2s ease-in-out;
+  }
 
-    .tabela img {
-        max-width: 25px;
-        transition: 0.2s ease-in-out;
-    }
+  .tabela a {
+    padding: 5px;
+    border-radius: 6px;
+    border: 2px solid black;
+    box-shadow: -2px 2px 0px 1px black;
+  }
 
-    .tabela a {
-        padding: 5px;
-        border-radius: 6px;
-        border: 2px solid black;
-        box-shadow: -2px 2px 0px 1px black;
-    }
+  #cursos .curso {
+    width: 280px;
+  }
 }
