@@ -1,6 +1,6 @@
 #home {
     padding: 160px 50px 0px 50px;
-    background-image: url(../img/fundo-aratech-informatica.jpg);
+    background-image: url(../img/images-alt/home-image.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -23,7 +23,7 @@
     font-size: 20px;
     margin-block: 20px;
     padding: 40px 20px 40px 50px;
-    background-color: #133e6881;
+    background-color: #00000081;
     color: white;
     font-weight: bold;
     text-align: justify;

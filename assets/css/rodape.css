@@ -5,14 +5,14 @@
     flex-direction: row;
     padding: 20px;
     min-height: 10vh;
-    background-color: #133E68;
-    color: white;
+    background-color: #bcbcc0;
+    color: rgb(0, 0, 0);
     gap: 10px;
     font-size: 12px;
 }
 
 #rodape>div {
-    border-right: 2px solid white;
+    border-right: 2px solid rgb(241, 229, 229);
     padding: 10px;
     width: 100%;
 }
@@ -52,7 +52,7 @@
 
 .noticias ul li:hover,
 .termos h5:hover {
-    color: rgb(245, 223, 193);
+    color: rgb(247, 208, 35);
 }
 
 .endereco p {
@@ -67,6 +67,7 @@
 .redes-sociais ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 5px;
 }
 
 .redes-sociais a {
@@ -74,9 +75,9 @@
     align-items: center;
     gap: 8px;
     padding: 10px;
-    color: white;
+    color: rgb(0, 0, 0);
     transition: 0.3s ease;
-    border: 2px solid #133E68;
+    border: 2px solid #BCBCC0;
     border-radius: 4px;
 }
 
@@ -85,7 +86,6 @@
 }
 
 .redes-sociais a:hover {
-    background-color: #42d1d1;
-    border: 2px solid #42d1d1;
-    color: black;
+    background-color: #ffffff;
+    border: 2px solid #000000;
 }

@@ -16,15 +16,20 @@ html {
 
 body {
   overflow-x: hidden;
-  background-color: aliceblue;
+  background-color: rgb(255, 240, 240);
   width: 100%;
 }
 
 #cabecalho {
-  background-color: #133e68;
+  background-color: #000000;
   min-height: 10vh;
   position: fixed;
   z-index: 1;
+  display: flex;
+  align-items: center;
+}
+#cabecalho img {
+  width: 180px;
 }
 
 #cabecalho nav {
@@ -47,11 +52,11 @@ body {
   width: 100px;
   text-align: center;
   padding: 10px 0;
-  border: 2px solid #008b8b;
+  border: 2px solid #000000;
   border-radius: 10px;
   font-weight: 600;
   transition: 0.2s ease-in-out;
-  background-color: #008b8b;
+  background-color: #000000;
 }
 
 #menu a:hover {
