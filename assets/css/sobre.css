@@ -1,5 +1,5 @@
 #sobre {
-    background-image: url(../img/fundo-sobre.jpg);
+    background-image: url(../img/images-alt/sobre-image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -10,7 +10,7 @@
 }
 
 .card {
-    background-color: #133e68e7;
+    background-color: #000000e7;
     max-width: 660px;
     margin: 15px 50px;
     color: white;

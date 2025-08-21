@@ -1,5 +1,5 @@
 #cursos {
-    background-color: #0f5397;
+    background-color: #312d2d;
     color: white;
     padding: 150px 100px;
     min-height: 80vh;
@@ -23,7 +23,7 @@
 }
 
 #cursos .curso {
-    background-color: aliceblue;
+    background-color: rgb(255, 240, 240);
     width: 400px;
     padding: 20px;
     color: black;
@@ -54,19 +54,19 @@
 }
 
 #cursos .curso:nth-child(1) h3 {
-    color: #0E5952;
+    color: #F910D4;
 }
 
 #cursos .curso:nth-child(2) h3 {
-    color: #1D5074;
+    color: #FA5252;
 }
 
 #cursos .curso:nth-child(3) h3 {
-    color: #A92121;
+    color: black;
 }
 
 #cursos .curso:nth-child(4) h3 {
-    color: #133BDF;
+    color: #07b178;
 }
 
 #cursos .curso:nth-child(5) h3 {
@@ -74,5 +74,5 @@
 }
 
 #cursos .curso:nth-child(6) h3 {
-    color: #FF4500;
+    color: #5269FA;
 }

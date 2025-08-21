@@ -1,5 +1,5 @@
 #contato {
-  background: linear-gradient(90deg, #06121f, #052341);
+  background: linear-gradient(90deg, #2b2a2a, #000000);
   color: white;
   padding: 130px 50px 50px 50px;
   min-height: 100vh;
@@ -27,7 +27,7 @@
 .contato-main .formulario {
   padding: 20px;
   font-size: 20px;
-  background-color: #254a75;
+  background-color: #444141;
   border-radius: 8px;
 }
 
@@ -67,14 +67,14 @@
   width: 80px;
   padding: 10px;
   color: white;
-  background-color: #008b8b;
-  border: 2px solid #008b8b;
+  background-color: #000000;
+  border: 2px solid #000000;
   font-weight: 600;
   transition: 0.3s ease-in-out;
 }
 
 #form-button:hover {
-  background-color: inherit;
+  border: 2px solid white;
 }
 
 .contato-main .formulario p {
