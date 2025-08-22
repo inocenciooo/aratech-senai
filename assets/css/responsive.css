@@ -9,7 +9,7 @@
     height: 400px;
     padding-block: 20px;
     transition: 0.3s ease-in-out;
-    transform: translate(100%, 15%);
+    transform: translate(100%, 6vh);
     border-radius: 4px;
   }
 
@@ -70,6 +70,9 @@
 }
 
 @media (max-width: 600px) {
+  #cabecalho img{
+    max-width: 120px;
+  }
   .tabela th,
   .tabela tr,
   .tabela td {
