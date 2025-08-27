@@ -27,8 +27,8 @@
     width: 400px;
     padding: 20px;
     color: black;
-    border: 3px solid black;
-    box-shadow: -2px 4px 0px 3px;
+    border: 3px solid var(--cor-principal);
+    box-shadow: -2px 4px 0px 3px var(--cor-principal);
     text-align: justify;
     border-radius: 8px;
     transition: 0.3s ease-in-out;

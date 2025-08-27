@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(90deg, #000000, #363232);
+    background: linear-gradient(90deg, var(--cor-principal), #363232);
     padding: 150px 100px;
 }
 
@@ -43,7 +43,7 @@
 .tabela td {
     border-collapse: collapse;
     text-align: center;
-    border: 2px solid black;
+    border: 2px solid var(--cor-principal);
     background-color: rgb(255, 255, 255);
 }
 
@@ -65,7 +65,7 @@
 
 
 .tabela caption {
-    background-color: #000000;
+    background-color: var(--cor-principal);
     color: white;
     border-bottom: none;
     padding: 5px;
@@ -92,8 +92,8 @@
     padding: 10px 20px;
     color: white;
     border-radius: 8px;
-    border: 2px solid rgb(0, 0, 0);
-    box-shadow: -4px 4px 0px 2px rgb(0, 0, 0);
+    border: 2px solid var(--cor-principal);
+    box-shadow: -4px 4px 0px 2px var(--cor-principal);
     transition: 0.3s ease-in-out;
 }
 

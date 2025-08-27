@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(../assets/fonts/Roboto/static/Roboto-Black.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+body {
+    padding: 20px;
+    background-color: #F3F2EC;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 50px;
+
+}
+
+
+div .borda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1E93AB;
+    padding: 5px;
+    font-size: 30px;
+    width: 100px;
+    height: 100px;
+    transition: 0.3s ease-in-out;
+}
+
+div .borda:hover {
+    transform: translate(2px, -4px);
+}
+
+
+.solid .borda {
+    border: 5px solid #E62727;
+}
+
+.double .borda {
+    border: 5px double #E62727;
+}
+
+.dotted .borda {
+    border: 5px dotted #E62727;
+}
+
+.outset .borda {
+    border: 5px outset #E62727;
+}
+
+.groove .borda {
+    border: 5px groove #E62727;
+}
+
+.ridge .borda {
+    border: 5px ridge #E62727;
+}

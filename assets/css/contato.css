@@ -1,5 +1,5 @@
 #contato {
-  background: linear-gradient(90deg, #2b2a2a, #000000);
+  background: linear-gradient(90deg, #2b2a2a, var(--cor-principal));
   color: white;
   padding: 130px 50px 50px 50px;
   min-height: 100vh;
@@ -67,8 +67,8 @@
   width: 80px;
   padding: 10px;
   color: white;
-  background-color: #000000;
-  border: 2px solid #000000;
+  background-color: var(--cor-principal);
+  border: 2px solid var(--cor-principal);
   font-weight: 600;
   transition: 0.3s ease-in-out;
 }
